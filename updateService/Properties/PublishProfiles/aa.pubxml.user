@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\更新程序服务</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AppUpdate.config">
+      <publishTime>11/08/2018 17:01:22</publishTime>
+    </File>
+    <File Include="bgm.png">
+      <publishTime>11/08/2018 16:56:42</publishTime>
+    </File>
+    <File Include="bin/AppUpdate.config">
+      <publishTime>11/08/2018 17:01:22</publishTime>
+    </File>
+    <File Include="bin/updateService.dll">
+      <publishTime>11/08/2018 17:02:32</publishTime>
+    </File>
+    <File Include="bin/updateService.pdb">
+      <publishTime>11/08/2018 17:02:32</publishTime>
+    </File>
+    <File Include="DownLoadHandler.ashx">
+      <publishTime>11/08/2018 17:01:09</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>11/08/2018 16:57:04</publishTime>
+    </File>
+    <File Include="qcsetup/DownLoadHandler.ashx">
+      <publishTime>06/15/2017 17:07:48</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/08/2018 16:49:04</publishTime>
+    </File>
+    <File Include="WebForm1.aspx">
+      <publishTime>06/15/2017 17:08:38</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
